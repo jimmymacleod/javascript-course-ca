@@ -1,13 +1,10 @@
-let allEvents;
 let event;
 const eventTrainingTimes = {'Marathon': 50, 'Triathlon': 100, 'Decathlon': 200 };
 
-/* this is used a few places and it is vulnerable */ 
-
-// Why are the two vairables up the top of the code not defined? What is their purpose?
+const getAllEvents()= ['Marathon', 'Triathlon', 'Decathlon'];
 
 const getRandomEvent = () => {
-  allEvents = ['Marathon', 'Triathlon', 'Decathlon'];
+  const allEvents= getAllEvents();
   event = allEvents[Math.floor(Math.random() * allEvents.length)];
 };
 
@@ -15,7 +12,7 @@ const getRandomEvent = () => {
 
 
 const getEventActivities = () => {
-  allEvents = ['Marathon', 'Triathlon', 'Decathlon'];
+  const allEvents = getAllEvents();
 
   if (!allEvents.includes(event)) {
     return null; 
@@ -39,7 +36,7 @@ const getEventActivities = () => {
 //return relevant activities to each event
 
 const getDaysToTrain = () => {
-  allEvents = ['Marathon', 'Triathlon', 'Decathlon'];
+  const allEvents = getAllEvents();
   if (!allEvents.includes(event)) {
     return null; 
   }
