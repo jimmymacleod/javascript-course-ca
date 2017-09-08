@@ -110,3 +110,17 @@ const playGame = () => {
 
 }
 
+
+playgame();
+
+
+
+// ttps://www.codecademy.com/courses/learn-javascript-iterators/lessons/javascript-iterators/exercises/choose-iterator?action=lesson_resume&program_content_id=0f24b3b442e0547eb392c75cea0e6efe&program_id=fc1cc76cbdee0831fda0677e3fd75ae6
+// //  Choose a method that will return undefined
+
+// cities.forEach(city => console.log('Have you visited ' + city + '?'));
+// ^^^^ This logged the sentences to the program when the program wanted 'undefined' to be logged
+
+
+
+
