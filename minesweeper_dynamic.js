@@ -46,3 +46,15 @@ An important note: The code in your while loop has the potential to place bombs 
   console.log('Player board: ' + printBoard(playerBoard));
 
   console.log('Bomb board: ' + printBoard(bombBoard));
+
+// code is returing the folowing in the console;
+
+// Jamess-MBP:minesweeper James$ node lib/minesweeper.js
+// [ [ ' ', ' ', ' ', ' ' ],
+//   [ ' ', ' ', ' ', ' ' ],
+//   [ ' ', ' ', ' ', ' ' ],
+//   [ ' ', ' ', ' ', ' ' ] ]
+//   |   |   |  /n  |   |   |  /n  |   |   |  
+// Player board: undefined
+//  |  |  | /n |  |  | /n |  |  | 
+// Bomb board: undefined
